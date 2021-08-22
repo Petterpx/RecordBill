@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecordBill</string>
+    <string name="splash_name">启动图</string>
+    <string name="splash_btn">点击进入云小记</string>
+    <string name="cd_menu">Menu</string>
 </resources>

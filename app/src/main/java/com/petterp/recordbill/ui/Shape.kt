@@ -1,4 +1,4 @@
-package com.petterp.recordbill.ui.theme
+package com.petterp.recordbill.ui
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
