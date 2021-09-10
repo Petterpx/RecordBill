@@ -1,20 +1,17 @@
-import com.petterp.bill.buildsrc.Libs
+import com.petterp.plugin.*
 
 
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-}
+
 
 android {
-    compileSdk 30
+    compileSdk BuildConfig.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.petterp.recordbill"
-        minSdk 21
-        targetSdk 30
-        versionCode 1
-        versionName "1.0"
+        applicationId BuildConfig.applicationId
+        minSdk BuildConfig.minSdkVersion
+        targetSdk BuildConfig.targetSdkVersion
+        versionCode BuildConfig.versionCode
+        versionName BuildConfig.versionName
         vectorDrawables {
             useSupportLibrary true
         }

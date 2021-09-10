@@ -1,4 +1,4 @@
-package com.petterp.bill.buildsrc
+package com.petterp.plugin
 
 object Versions {
     const val ktLint = "0.41.0"
@@ -22,10 +22,22 @@ object Libs {
     }
 
     object Accompanist {
-        private const val version = "0.16.0"
+        private const val version = "0.18.0"
         const val insets = "com.google.accompanist:accompanist-insets:$version"
         const val systemUiController =
             "com.google.accompanist:accompanist-systemuicontroller:$version"
+        const val coli = "com.google.accompanist:accompanist-coil:0.15.0"
+        const val swiperefresh = "com.google.accompanist:accompanist-swiperefresh:$version"
+        const val flowlayout = "com.google.accompanist:flowlayout:$version"
+        const val insetUi = "com.google.accompanist:insets-ui:$version"
+        const val pager = "com.google.accompanist:pager:$version"
+        const val drawblePainter = "com.google.accompanist:drawablePainter:$version"
+        const val imageloadingCore = "com.google.accompanist:imageloading-core:0.15.0"
+        const val navigationMaterial = "com.google.accompanist:navigation-material:$version"
+        const val navigationAnimation = "com.google.accompanist:navigation-animation:$version"
+        const val placeholder = "com.google.accompanist:placeholder:$version"
+        const val placeholderMaterial = "com.google.accompanist:placeholder-material:$version"
+        const val permissions = "com.google.accompanist:permissions:$version"
     }
 
     object Kotlin {
@@ -112,5 +124,5 @@ object Libs {
 object Urls {
     const val mavenCentralSnapshotRepo = "https://oss.sonatype.org/content/repositories/snapshots/"
     const val composeSnapshotRepo = "https://androidx.dev/snapshots/builds/" +
-        "${Libs.AndroidX.Compose.snapshot}/artifacts/repository/"
+            "${Libs.AndroidX.Compose.snapshot}/artifacts/repository/"
 }
